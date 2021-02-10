@@ -6,7 +6,7 @@ import torch
 
 from simpletransformers.classification import MultiLabelClassificationModel
 
-from tratador_texto import TrataTexto
+from scripts.tratador_texto import TrataTexto
 
 PATH_PESO = "./Pesos/bert_multicass"
 
