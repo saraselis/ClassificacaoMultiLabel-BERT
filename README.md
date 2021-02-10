@@ -2,7 +2,7 @@
 <p>
 </p>
 
-## Projeto
+## Projeto :bomb:
 O projeto foi pensado para resolver o problema de classificação multi-label de perguntas retiradas do site Stack Overflow. As perguntas podem ser classificadas como **node.js**, **jquery**, **html** e **angular**. Uma mesma pergunta pode haver apenas uma label ou até mesmo todas as labels.
 
 ![Tags](https://github.com/saraselis/ClassificacaoMultiLabel-BERT/blob/main/Files/tags.jpeg)
