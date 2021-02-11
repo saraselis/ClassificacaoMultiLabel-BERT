@@ -2,7 +2,7 @@
 <p>
 </p>
 
-## Projeto :bomb:
+# Projeto :bomb:
 O projeto foi pensado para resolver o problema de classificação multi-label de perguntas retiradas do site Stack Overflow. As perguntas podem ser classificadas como **node.js**, **jquery**, **html** e **angular**. Uma mesma pergunta pode haver apenas uma label ou até mesmo todas as labels.
 
 ![Tags](https://github.com/saraselis/ClassificacaoMultiLabel-BERT/blob/main/Files/tags.jpeg)
@@ -12,15 +12,27 @@ O classificador selecionado para tentar resolver esse problema, foi a implementa
 > Status do Projeto: em andamento :grey_exclamation:
 
 ## Pré-requisitos :question:
-Para rodar o projeto, basta criar um novo ambiente de trabalho [Anaconda](https://docs.anaconda.com/aenotebooks/4.0/user/anaconda/#:~:text=Anaconda%20supports%20multiple%20versions%20of,features%20of%20Anaconda%20Enterprise%20Notebooks.).
+1. Para rodar o projeto em um container [Docker](https://www.docker.com/):
+
+`bash build.sh`
+
+`bash run.sh`
+
+Posteriormente, basta acessar a url `http://172.17.0.2:8501`.
+
+2. Para rodar o projeto localmente, basta criar um novo ambiente de trabalho [Anaconda](https://docs.anaconda.com).
+Dentro do diretório <i>Files</i> encontra-se o arquivo yml referênte ao ambiente utilizado no desenvolvimento do projeto.
 
 `conda env create -f environment.yml`
 
-## Executando :running:
-Para executar o projeto, será necessário rodar o script **app.py** para realizar os testes desejados.
-O script será rodado com [Streamlit](https://www.streamlit.io/).
+`conda activate BertMultilabel`
+
+Logo após, será necessário rodar o script **app.py**.
 
 `streamlit run app.py`
+
+## Executando :running:
+A API será executada com [Streamlit](https://www.streamlit.io/).
 
 Os notebooks de estudos e treinamentos estão no diretório `/Jupyters`.
 
@@ -34,7 +46,6 @@ A pergunta será pré-processada e classificada.
 ## Melhorias :trophy:
 - [ ] Testar algorítimos OnevsRest
 - [ ] Testar algorítimos adaptados
-
 
 
 <p align="justify"> </p> <img src="https://img.shields.io/static/v1?label=Python&message=Bert&color=brightgreengreen&style=for-the-badge&logo=Python"/>
