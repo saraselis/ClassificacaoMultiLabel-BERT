@@ -21,7 +21,7 @@ O classificador selecionado para tentar resolver esse problema, foi a implementa
 Posteriormente, basta acessar a url `http://172.17.0.2:8501`.
 
 2. Para rodar o projeto localmente, basta criar um novo ambiente de trabalho [Anaconda](https://docs.anaconda.com).
-Dentro do diretório <i>Files</i> encontra-se o arquivo yml referênte ao ambiente utilizado no desenvolvimento do projeto.
+Dentro do diretório <i>Files</i> encontra-se o arquivo yml referente ao ambiente utilizado no desenvolvimento do projeto.
 
 `conda env create -f environment.yml`
 
