@@ -20,7 +20,7 @@ handler = logging.StreamHandler(sys.stderr)
 formatter = logging.Formatter('%(name)s - %(levelname)s - [+] ------- %(message)s -------') 
 handler.setFormatter(formatter)
 logger.handlers = [handler]
-
+# nltk.download('stopwords')
 
 class TrataTexto:
     '''

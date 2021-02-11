@@ -19,6 +19,7 @@ args = {
     "num_train_epochs": 1,
     "train_batch_size": 16,
     "eval_batch_size": 16,
+    'no_cache': True
 }
 
 # verificando disponibilidade do cuda
@@ -29,8 +30,8 @@ print(cuda_available)
 model_vencedor = MultiLabelClassificationModel('bert',
                                                PATH_PESO,
                                                args=args,
-                                               use_cuda=True)
-
+                                               use_cuda=False)
+print(model_vencedor)
 tratador = TrataTexto()
 
 st.title("Classificação Multi-label com BERT 💻")
@@ -48,7 +49,6 @@ html_page = """
 <div style="background-color:tomato; padding:5px">
     <p style="font-size:30px; text-align:center">Resultados</p>
 </div>
-
 """
 
 if st.button("Enviar"):
