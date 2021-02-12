@@ -18,7 +18,7 @@ O classificador selecionado para tentar resolver esse problema, foi a implementa
 
 `bash run.sh`
 
-Posteriormente, basta acessar a url `http://172.17.0.2:8501`.
+Posteriormente, basta acessar a url disponibilizada no seu terminal.
 
 2. Para rodar o projeto localmente, basta criar um novo ambiente de trabalho [Anaconda](https://docs.anaconda.com).
 Dentro do diretório <i>Files</i> encontra-se o arquivo yml referente ao ambiente utilizado no desenvolvimento do projeto.
@@ -32,7 +32,7 @@ Logo após, será necessário rodar o script **app.py**.
 `streamlit run app.py`
 
 ## Executando :running:
-A API será executada com [Streamlit](https://www.streamlit.io/).
+A API será executada pelo [Streamlit](https://www.streamlit.io/).
 
 Os notebooks de estudos e treinamentos estão no diretório `/Jupyters`.
 
