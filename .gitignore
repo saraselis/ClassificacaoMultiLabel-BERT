@@ -1,0 +1,9 @@
+Jupyters/.ipynb_checkpoints/
+Jupyters/cache_dir/
+Jupyters/outputs/
+Jupyters/runs/
+Jupyters/wandb/
+Pesos/
+base.txt
+npm-debug.log
+__pycache__/
