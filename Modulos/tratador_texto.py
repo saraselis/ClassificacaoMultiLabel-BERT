@@ -22,6 +22,7 @@ handler.setFormatter(formatter)
 logger.handlers = [handler]
 # nltk.download('stopwords')
 
+
 class TrataTexto:
     '''
         Classe destinada ao tratamento do texto enviado para

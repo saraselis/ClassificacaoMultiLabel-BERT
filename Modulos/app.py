@@ -6,7 +6,7 @@ import torch
 
 from simpletransformers.classification import MultiLabelClassificationModel
 
-from Scripts.tratador_texto import TrataTexto
+from tratador_texto import TrataTexto
 
 PATH_PESO = "./Pesos/bert_multicass"
 
@@ -31,7 +31,7 @@ model_vencedor = MultiLabelClassificationModel('bert',
                                                PATH_PESO,
                                                args=args,
                                                use_cuda=False)
-print(model_vencedor)
+
 tratador = TrataTexto()
 
 st.title("Classificação Multi-label com BERT 💻")
