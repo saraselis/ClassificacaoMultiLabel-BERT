@@ -11,10 +11,10 @@ RUN chmod +x -R /root/nltk_data
 COPY . /app 
 WORKDIR /app
 
-    # --- INSTALANDO BIBLIOTECAS
+# INSTALANDO BIBLIOTECAS
 RUN pip install -r requirements.txt
 EXPOSE 8501
 
 # RODANDO A APLICACAO
 ENTRYPOINT ["streamlit","run"]
-CMD ["app.py"]
+CMD ["Modulos/app.py"]
